@@ -1,0 +1,37 @@
+body {
+  background-color: #DDD;
+}
+.preloader {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preloader .cube {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.preloader .one {
+  background-color: #8CC271;
+}
+.preloader .two {
+  background-color: #69BEEB;
+}
+.preloader .three {
+  background-color: #F5AA39;
+}
+.preloader .four {
+  background-color: #E9643B;
+}
+.buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.buttons button {
+  width: 140px;
+  display: block;
+  margin-bottom: 5px;
+}
